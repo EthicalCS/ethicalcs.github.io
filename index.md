@@ -7,16 +7,32 @@ layout: home
 
 # Ethical Reflection Modules for CS 1
 
-Coming soon...
+Over the past two years or so, I have developed a handful of ethical reflection modules for CS 1 courses. The goal of these modules is to:
+1. Introduce ethical reflection in CS 1 courses
+2. Develop ethical reflection habits _alongside_ coding (all modules involve programming!)
+3. Pair directly with _existing_ CS 1 curriculum (students practice for loops - but instead of practicing on trivial problems, their practice is situated in ethical design scenarios)
 
-### Resources
+By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit.
+
+--------------------
+## [Hiring Algorithms](modules/hiring)
+**Key Questions:** _What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
+- **Course:** CS 1
+- **Practice:** `for` loops, conditionals, `lists`
+
+--------------------
+
+### Coming Soon
+Modules on _privacy, input validation, representation, decision-making_
+
+
+
+
+## Other Resources
 - [ACM Code of Ethics](https://www.acm.org/code-of-ethics)
 - [Ethics in Technology Practice](https://www.scu.edu/ethics-in-technology-practice/)
 
-## CS 1 Ethical Reflection Modules
-The goal of these modules is to (1) introduce code-based ethical decisions that students must make, and (2) to pair directly with existing curriculum in CS 1 to integrate more seamlessly with existing courses.
-
-### Ethical Engine
+<!-- ### Ethical Engine
 - *Materials:* [Github repository](https://github.com/evanpeck/ethical_engine)
 - *Practice:* Object-Oriented Programming and Design
 - *Scenario:* [MIT's Moral Machine](http://moralmachine.mit.edu/) - the trolley problem resituated in the context of autonomous vehicles.
@@ -28,7 +44,7 @@ The goal of these modules is to (1) introduce code-based ethical decisions that 
   - Evan Peck (Bucknell University): [The Ethical Engine: Integrating Ethical Design into Intro Computer Science](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
   - Justin Li (Occidental University): [Write Up the Ethical Engine Lab](https://howtostartacsdept.wordpress.com/2018/01/13/step-86-write-up-the-ethical-engine-lab/)
 
-_... more coming soon..._ 
+_... more coming soon..._  -->
 
 <!--
 ### Ethical Hiring

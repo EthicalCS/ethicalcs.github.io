@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Jekyll!</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>Ethical CS</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/08/04/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://localhost:4000/modules/hiring/stories.html">
   <link rel="alternate" type="application/rss+xml" title="Ethical CS" href="/feed.xml">
   
   
@@ -81,37 +81,69 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post">
+  
+  <script src="/js/common.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time datetime="2017-08-04T10:04:48-04:00" itemprop="datePublished">
-        
-        Aug 4, 2017
-      </time>
-      </p>
+    <h1 class="post-title"></h1>
   </header>
+  <div class="post-content">
+    <p>Now that you feel good about your algorithm, let’s highlight some of those applicant and reveal the stories between them. For each of the following, reflect on whether you think that your algorithm <em>does the right thing.</em> If not, how could you change it?</p>
 
-  <div class="post-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<h4 id="story-1-misread-the-instructions"><strong>Story 1:</strong> Misread the Instructions</h4>
+<p>What if an excellent applicant thinks they should put in letter grades?</p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p><code class="highlighter-rouge">[‘A’, ‘A’, ‘A’, ‘A’, ‘A’, ‘A’, ‘A’]</code></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>… or how about their grades on 4-point scale?</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><code class="highlighter-rouge">[4, 3.9, 4, 4, 3.95, 4, 3.9]</code></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<h4 id="story-2-bad-assumptions"><strong>Story 2:</strong> Bad Assumptions</h4>
+<p>What if one of your applicants skipped <em>Intro to Computer Science</em>? When they saw your form, they froze, and decided that putting <code class="highlighter-rouge">-1</code> in the input field would make it obvious…</p>
 
+<p><code class="highlighter-rouge">[-1, 95, 99, 94, 96, 98, 95]</code></p>
+
+<h4 id="story-3-mistake-in-the-input"><strong>Story 3:</strong> Mistake in the Input</h4>
+<p>What if one of your applicants accidentally put in a number &gt; 100?</p>
+
+<p><code class="highlighter-rouge">[681, 68, 73, 70, 81, 91, 59]</code></p>
+
+<p>That might seem easy enough for a program to catch, but what if they accidentally dropped a <code class="highlighter-rouge">0</code>?</p>
+
+<p><code class="highlighter-rouge">[100, 100, 100, 100, 100, 100, 10]</code></p>
+
+<p>A person would catch that mistake easily, does your algorithm?</p>
+
+<h4 id="story-4-the-awful-semester"><strong>Story 4:</strong> The Awful Semester</h4>
+<p>What if your applicant had a medical emergency one semester? Or a personal tragedy?</p>
+
+<p><code class="highlighter-rouge">[95, 93, 50, 91, 98, 90, 90]</code></p>
+
+<h4 id="story-5-inverse-trajectories"><strong>Story 5:</strong> Inverse Trajectories</h4>
+<p>What if one of your applicants came from an underprivileged background and really struggled at the beginning of college… but showed extraordinary growth by the end?</p>
+
+<p><code class="highlighter-rouge">[65, 75, 85, 95, 100, 100, 80]</code></p>
+
+<p>What if one of your applicants came to college with extraordinary potential? They easily aced their first few classes and then gradually grew apathetic about their education - getting nothing but barely-passing grades by the time they were a senior?</p>
+
+<p><code class="highlighter-rouge">[100, 100, 95, 85, 75, 65, 80]</code></p>
+
+<p><em>Does your algorithm treat them equally?</em></p>
+
+<h2 id="reflection-questions">Reflection Questions</h2>
+<p>There are often no easy answers to these questions… but we need to reflect on the tradeoffs of our decisions.</p>
+
+<ul>
+  <li>What systemic advantages/disadvantages are your algorithms likely to amplify?</li>
+  <li>What does it mean to design a <em>fair</em> algorithm?</li>
+  <li>What is the human cost of efficiency? More permissive algorithms may capture more interesting candidates, but it also means more costly, human work. What is the ideal balance?</li>
+</ul>
 
   </div>
 
-  
 </article>
 
       </div>
