@@ -15,10 +15,14 @@ Over the past two years or so, I have developed a handful of ethical reflection 
 By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit.
 
 --------------------
-## [Hiring Algorithms](modules/hiring)
-**Key Questions:** _What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
-- **Course:** CS 1
-- **Practice:** `for` loops, conditionals, `lists`
+## [Hiring Algorithms (CS 1): Computers as Decision-Makers](modules/hiring)
+
+![ethical hiring](img/hiring.jpg)
+
+_What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
+- [Material](modules/hiring)
+- *Practice:* `for` loops, conditionals, `lists`
+- *Writeup:* [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
 
 --------------------
 
