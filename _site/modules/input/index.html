@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Welcome to Jekyll!</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>Ethical Input Validation</title>
+  <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/08/04/welcome-to-jekyll.html">
+  <link rel="canonical" href="http://localhost:4000/modules/input/">
   <link rel="alternate" type="application/rss+xml" title="Ethical CS" href="/feed.xml">
   
   
@@ -88,37 +88,53 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post">
+  
+  <script src="/js/common.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
-    <p class="post-meta">
-      <time datetime="2017-08-04T10:04:48-04:00" itemprop="datePublished">
-        
-        Aug 4, 2017
-      </time>
-      </p>
+    <h1 class="post-title">Ethical Input Validation</h1>
   </header>
+  <div class="post-content">
+    <p><img src="/img/university.jpg" alt="university" /></p>
 
-  <div class="post-content" itemprop="articleBody">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p><em>This exercise was developed by <a href="https://justinnhli.com/">Justin Li (Occidental College)</a>. It was adapted by Evan Peck (Bucknell)</em></p>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<ul>
+  <li><strong>Course:</strong> CS 1</li>
+  <li><strong>Language:</strong> Python</li>
+  <li><strong>Practice:</strong> conditionals, data types, functions</li>
+  <li><strong>Approx. Time:</strong> 1-2 hours (depending on revisions)</li>
+</ul>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h2 id="scenario-harwall-universitys-visitors">Scenario: Harwall University’s Visitors</h2>
+<p>You are working for the prestigious Harwall university to meet the joint needs of <em>Admissions</em>, <em>Alumni Relations</em>, and <em>Communications</em>. People are constantly visiting campus - to see someone they know, to check out the school as a prospective, to give a talk, to interview, to come back to the school (alumni!), or for a variety of reasons.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>It would be valuable to know who is on a campus throughout the year, so you are asked to write a standard form that Harwall can give visitors to collect their information. Harwall intends to use the information from this form later on to communicate with potential donors or reach out to prospective students.</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>Since Harwall wants to make sure that this data is useful, they have also asked you to validate whatever information is entered into the form. That is your job.</p>
 
+<h2 id="assignment">Assignment</h2>
+<p>Students are presented <em>Part 1</em> without <strong>any</strong> ethical framing or knowledge of <em>Part 2</em>.</p>
+<ul>
+  <li><a href="instructions.html">Part 1: Instructions</a></li>
+  <li><a href="stories.html">Part 2: Stories</a></li>
+</ul>
+
+<p><em>Instructor Notes:</em> Our sequencing of CS 1 (based off <a href="https://www.cs.hmc.edu/csforall/">Harvey Mudd’s <em>CS for All</em></a>) teaches recursion <em>before</em> for and while loops. As a result, you’ll see that the template code uses recursion to repeat a function - feel free to change this based on the sequence in your course (most likely to a <code class="highlighter-rouge">while</code> loop).</p>
+
+<h2 id="supplemental-reading">Supplemental Reading</h2>
+<ul>
+  <li><a href="https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/">Falsehoods Programmers Believe about Names</a></li>
+  <li><a href="https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/">Falsehoods Programmers Believe about Addresses</a></li>
+  <li><a href="https://wiesmann.codiferes.net/wordpress/?p=15187">Falsehoods Programmers Believe about Geography</a></li>
+  <li><a href="https://www.theguardian.com/technology/2015/feb/16/facebook-real-name-policy-suspends-native-americans">Facebook suspends Native Americans over ‘real name’ policy</a></li>
+  <li><a href="http://time.com/4044914/transgender-tsa-body-scan/">Airport body scan machines flag transgender passengers as threats</a></li>
+</ul>
 
   </div>
 
-  
 </article>
 
       </div>

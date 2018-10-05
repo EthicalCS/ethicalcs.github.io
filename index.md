@@ -22,12 +22,31 @@ By reducing the barrier to adoption, my hope is that ethical reflection can be i
 _What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
 - [Material](modules/hiring)
 - *Practice:* `for` loops, conditionals, `lists`
-- *Writeup:* [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
+- *Writeup:* [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
+- *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
+## [Input Validation (CS 1): Diversity and Identity](modules/input)
+![university](img/university.jpg)
+
+_What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
+- [Material](modules/input)
+- *Practice:* conditionals, functions, data types
+- *Author:* [Justin Li (Occidental College)](https://justinnhli.com/), Adapted by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
+
+-------------------
+
+<!-- ## [Ethical Engine 1 (CS1/2): Representation](modules/ethicalengine1)
+
+_How should we represent people in code? What are the implications of the representations we choose? How does our code reflect our values?_
+
+- [Material](modules/ethicalengine1) -->
+
+
+
 
 ### Coming Soon
-Modules on _privacy, input validation, representation, decision-making_
+Modules on _privacy, representation, decision-making_
 
 
 
