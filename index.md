@@ -37,15 +37,16 @@ _What assumptions do we make about the people using our technology? What are the
 -------------------
 
 <!-- ## [Ethical Engine 1 (CS1/2): Representation](modules/ethicalengine1)
-
+![university](img/people.jpg)
 _How should we represent people in code? What are the implications of the representations we choose? How does our code reflect our values?_
 
-- [Material](modules/ethicalengine1) -->
+
+- [Material](modules/ethicalengine1) _SOON..._ -->
 
 
 
 
-### Coming Soon
+## _Coming Soon..._
 Modules on _privacy, representation, decision-making_
 
 

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Moogle&#39;s Hiring Algorithm - Stories</title>
+  <title>FAQ</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/modules/hiring/stories.html">
+  <link rel="canonical" href="http://localhost:4000/docs/faq.html">
   <link rel="alternate" type="application/rss+xml" title="Ethical CS" href="/feed.xml">
   
   
@@ -101,62 +101,42 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <header class="post-header">
-    <h1 class="post-title">Moogle&#39;s Hiring Algorithm - Stories</h1>
+    <h1 class="post-title">FAQ</h1>
   </header>
   <div class="post-content">
-    <p><img src="/img/hiring.jpg" alt="ethical hiring" /></p>
+    <h3 id="can-i-contribute">Can I contribute?</h3>
 
-<p>Now that you feel good about your algorithm, let’s highlight some of those applicant and reveal the stories between them. For each of the following, reflect on whether you think that your algorithm <em>does the right thing.</em> If not, how could you change it?</p>
-
-<h4 id="story-1-misread-the-instructions"><strong>Story 1:</strong> Misread the Instructions</h4>
-<p>What if an excellent applicant thinks they should put in letter grades?</p>
-
-<p><code class="highlighter-rouge">[‘A’, ‘A’, ‘A’, ‘A’, ‘A’, ‘A’, ‘A’]</code></p>
-
-<p>… or how about their grades on 4-point scale?</p>
-
-<p><code class="highlighter-rouge">[4, 3.9, 4, 4, 3.95, 4, 3.9]</code></p>
-
-<h4 id="story-2-bad-assumptions"><strong>Story 2:</strong> Bad Assumptions</h4>
-<p>What if one of your applicants skipped <em>Intro to Computer Science</em>? When they saw your form, they froze, and decided that putting <code class="highlighter-rouge">-1</code> in the input field would make it obvious…</p>
-
-<p><code class="highlighter-rouge">[-1, 95, 99, 94, 96, 98, 95]</code></p>
-
-<h4 id="story-3-mistake-in-the-input"><strong>Story 3:</strong> Mistake in the Input</h4>
-<p>What if one of your applicants accidentally put in a number &gt; 100?</p>
-
-<p><code class="highlighter-rouge">[681, 68, 73, 70, 81, 91, 59]</code></p>
-
-<p>That might seem easy enough for a program to catch, but what if they accidentally dropped a <code class="highlighter-rouge">0</code>?</p>
-
-<p><code class="highlighter-rouge">[100, 100, 100, 100, 100, 100, 10]</code></p>
-
-<p>A person would catch that mistake easily, does your algorithm?</p>
-
-<h4 id="story-4-the-awful-semester"><strong>Story 4:</strong> The Awful Semester</h4>
-<p>What if your applicant had a medical emergency one semester? Or a personal tragedy?</p>
-
-<p><code class="highlighter-rouge">[95, 93, 50, 91, 98, 90, 90]</code></p>
-
-<h4 id="story-5-inverse-trajectories"><strong>Story 5:</strong> Inverse Trajectories</h4>
-<p>What if one of your applicants came from an underprivileged background and really struggled at the beginning of college… but showed extraordinary growth by the end?</p>
-
-<p><code class="highlighter-rouge">[65, 75, 85, 95, 100, 100, 80]</code></p>
-
-<p>What if one of your applicants came to college with extraordinary potential? They easily aced their first few classes and then gradually grew apathetic about their education - getting nothing but barely-passing grades by the time they were a senior?</p>
-
-<p><code class="highlighter-rouge">[100, 100, 95, 85, 75, 65, 80]</code></p>
-
-<p><em>Does your algorithm treat them equally?</em></p>
-
-<h2 id="reflection-questions">Reflection Questions</h2>
-<p>There are often no easy answers to these questions… but we need to reflect on the tradeoffs of our decisions.</p>
+<p>Sure! If you take a look at <a href="https://github.com/EthicalCS/ethicalcs.github.io/tree/master/modules">some of my modules in the repository</a>, you’ll see that they have a similar structure. I write everything up in markdown and then use Jekyll to create the nice website you see here. Currently, I’m looking for modules that fit the following criteria:</p>
 
 <ul>
-  <li>What systemic advantages/disadvantages are your algorithms likely to amplify?</li>
-  <li>What does it mean to design a <em>fair</em> algorithm?</li>
-  <li>What is the human cost of efficiency? More permissive algorithms may capture more interesting candidates, but it also means more costly, human work. What is the ideal balance?</li>
+  <li>Appropriate for students in CS 1 (or CS 2)</li>
+  <li>Is practice-based - students externalize their beliefs directly in code.</li>
+  <li>Pairs with existing curriculum (for example, the exercise can double as practice for writing <code class="highlighter-rouge">for</code> loops)</li>
 </ul>
+
+<p>You can either email me at <code class="highlighter-rouge">evan.peck@bucknell.edu</code> or submit a pull request in <a href="https://github.com/EthicalCS/ethicalcs.github.io">the repository</a>.</p>
+
+<h3 id="how-effective-are-these-modules">How effective are these modules?</h3>
+
+<p>Anecdotally, I have had fantastic responses from my students - both during the lectures themselves and afterwards in teaching evaluations. <strong>BUT..</strong></p>
+
+<p><em>Anecdotally</em> is the key word here. There is no research behind their effectiveness, and I don’t pretend to be a CS ed researcher. Personally, I believe that learning ethical reflection habits <em>alongside</em> programming habits will be more effective than standalone ethics courses… but I have no evidence to back this up. While it’s in my longterm plan to quantify the impact of these modules, the bottom line here is that you should listen to CS education researchers over me.</p>
+
+<h3 id="how-will-i-have-time-to-insert-these-in-my-very-full-cs-1-courses">How will I have time to insert these in my (very full) CS 1 courses?</h3>
+
+<p>The intention of these modules is that they pair directly with your existing curriculum. For example, I often set aside lecture or two for students to practice <code class="highlighter-rouge">for</code> loops on tiny functions. I still take that time, but instead of situating it on abstract functions, I situate that practice in an ethical reflection scenario.</p>
+
+<p>I don’t want to claim that these modules take <em>NO</em> more time, but I’ve found the impact to be minimal in my course.</p>
+
+<!-- ### I'm uncomfortable with these discussions becoming political in nature...
+
+Two responses
+
+### Who even are you?
+
+I'm  -->
+
+<h4 id="more-soon"><em>More soon…</em></h4>
 
   </div>
 
