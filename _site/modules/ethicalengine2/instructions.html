@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Disaster Relief Robot</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/modules/ethicalengine2/instructions.html">
+  <link rel="alternate" type="application/rss+xml" title="Ethical CS" href="/feed.xml">
+  
+  
+</head>
+
+
+  <script src="/js/common.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">Ethical CS</a>
+
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+            
+            
+              
+              <a class="page-link" href="/docs/faq.html">FAQ</a>
+              
+            
+          
+            
+            
+              
+              <a class="page-link" href="/">Ethical Reflection Modules for CS 1</a>
+              
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+              
+            
+          
+            
+            
+              
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+  
+  <script src="/js/common.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <header class="post-header">
+    <h1 class="post-title">Disaster Relief Robot</h1>
+  </header>
+  <div class="post-content">
+    <p><img src="img/rescue.jpg" alt="rescue" /></p>
+
+<h2 id="scenario-disaster-relief-robot">Scenario: Disaster Relief Robot</h2>
+
+<p>You are working for an emerging robotics company, <em>Robotoni</em>, that is taking the admiral stance of developing robots to aid in life-threatening events. Their current objective is to build a fleet of autonomous robots that will rescue people in who are caught in two natural disasters: wildfires and floods.</p>
+
+<p><em>Robotoni</em> has already built a robot that can navigate unknown terrain and successfully rescue people who are in need of help. However, for <em>Robotoni</em> robots to act autonomously and maximize their impact, they must also make hard decisions. In effect, the <em>Robotoni</em> robot must <strong>prioritize who to save</strong>.</p>
+
+<p>Your job is to write a comparison algorithm for the <em>Robotoni Disaster-Relief Robot</em> in which it compares two groups of people and decides which group to prioritize for relief.</p>
+
+<h3 id="explore-the-moral-machine">Explore the Moral Machine</h3>
+<p>While not situated in the context of disaster-relief robots, similar questions have been asked in the context of autonomous vehicles. To explore this context, visit MIT’s <a href="http://moralmachine.mit.edu/">Moral Machine</a>. From their website:</p>
+
+<blockquote>
+  <p>From self-driving cars on public roads to self-piloting reusable rockets landing on self-sailing ships, machine intelligence is supporting or entirely taking over ever more complex human activities at an ever increasing pace. The greater autonomy given machine intelligence in these roles can result in situations where they have to make autonomous choices involving human life and limb. This calls for not just a clearer understanding of how humans make such choices, but also a clearer understanding of how humans perceive machine intelligence making such choices.</p>
+</blockquote>
+
+<p>Briefly, the <em>Moral Machine</em> is an online simulator that lets you experiment with the kinds of scenarios that <em>Teluta</em> outlined above.</p>
+
+<p><img src="img/moralmachine.png" alt="moralmachine" /></p>
+
+<p>Click the <code class="highlighter-rouge">Start Judging</code> buttons and make yourself go through a handful of scenarios. Try to reflect on exactly how you’re making your decisions.</p>
+
+<h3 id="from-values-to-code">From Values to Code</h3>
+
+<p>Instead of deciding between people in a car vs. pedestrians in a crosswalk, your algorithm must decide between two groups of people at different locations who are stranded and need to be rescued (for example, two different locations in the city during a flash-flood).</p>
+
+<p><em>Who will your algorithm prioritize?</em></p>
+
+<p>We’ve created python code that replicates the random scenarios that are generated in the <em>Moral Machine</em>. The entities you must save may be people or animals. The people may be of various ages, genders, and professions. To access all of this information and program the <em>Robotoni Disaster-Relief Robot</em>, you’ll use the <em>Ethical Engine API</em>, which allows you to analyze details about scenarios using python code:</p>
+
+<ul>
+  <li><a href="code/docs.html">Ethical Engine API</a></li>
+</ul>
+
+<p>You are given access to a few python files which you will use to various degrees:</p>
+<ul>
+  <li><a href="code/scenario.py"><code class="highlighter-rouge">scenario.py</code></a> contains our code that automatically generates random scenarios that your robot must navigate. You do <em>not</em> need to alter this code. However, it is worth reading through and seeing if you understand it.</li>
+  <li><a href="code/engine.py"><code class="highlighter-rouge">engine.py</code></a> contains the code that you’ll write that <em>decides</em> which people to prioritize and save. This is where you’ll do most of your work.</li>
+  <li><a href="code/main.py"><code class="highlighter-rouge">main.py</code></a> is the code you’ll run that puts all the pieces together. You’ll need to comment or uncomment a line or two here to switch between your various decision implementations.
+    <ul>
+      <li>To run this file, simply type <code class="highlighter-rouge">python3 main.py</code> in the command line.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="coding-predefined-priorities">Coding Predefined Priorities</h4>
+<p>Below are written descriptions of rulesets for sample decision algorithms. Your job is to write and test three different decision methods in <code class="highlighter-rouge">engine.py</code> that precisely implement each ruleset:</p>
+
+<ul>
+  <li><strong>Ruleset 1:</strong> Save the person in location 2, if and only if they are pregnant.</li>
+  <li><strong>Ruleset 2:</strong> Save the person in location 1, if they are <strong>not</strong> trespassing or if they are a child.</li>
+  <li><strong>Ruleset 3:</strong> The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the person in location 1.</li>
+</ul>
+
+<p>Fill in the appropriate methods in <code class="highlighter-rouge">engine.py</code>. When you want to test one of the decision methods, edit line <code class="highlighter-rouge">23</code> of <code class="highlighter-rouge">main.py</code> to choose the target method. Then execute the following command in your terminal to run the program:</p>
+
+<p><em>Helpful Tip:</em> Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the <em>same</em> scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python3 main.py 12
+</code></pre></div></div>
+
+<h4 id="from-gut-feelings-to-code-individuals">From Gut Feelings to Code: Individuals</h4>
+
+<p>Now that you have experience using the <a href="code/docs.html">Ethical Engine API</a>, design your own decision algorithm that decides between one person in each location! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.</p>
+
+<p>Submit the following:</p>
+
+<ul>
+  <li>A written description of how you want the decision to be made</li>
+  <li>The source code for your decision algorithm</li>
+  <li>Examples of possible discrepancies between your written description and the actual algorithm</li>
+</ul>
+
+<h4 id="from-gut-feelings-to-code-groups">From Gut Feelings to Code: Groups</h4>
+<p>While you may be able to accomplish the previous sections with a set of complex conditional statements, the problem gets a lot more complicated when you need to choose between <em>groups</em> of people.</p>
+
+<p>First, let’s change the code in <code class="highlighter-rouge">scenario.py</code> so that it will create scenarios fo groups instead of individuals. Find the following code:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># The minimum/maximum number of people at each location</span>
+<span class="n">MIN_LOCATION1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">MAX_LOCATION1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">MIN_LOCATION2</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">MAX_LOCATION2</span> <span class="o">=</span> <span class="mi">1</span>
+</code></pre></div></div>
+<p>Change <code class="highlighter-rouge">MAX_LOCATION1</code> to be equal to <code class="highlighter-rouge">4</code> and <code class="highlighter-rouge">MAX_LOCATION2</code> to be equal to <code class="highlighter-rouge">4</code>. Next, find the constructor for the <code class="highlighter-rouge">Scenario</code> class:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">loc1people</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">loc2people</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">youInLoc1</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+              <span class="n">trespassing</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">sameNum</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
+</code></pre></div></div>
+
+<p>Change <code class="highlighter-rouge">sameNum</code> so that it is <code class="highlighter-rouge">sameNum=False</code>. This will change the random generation of scenarios so that each group <em>may not be the same size</em>.</p>
+
+<p>Think carefully about how you can handle these situations. One common method is to come up with a <em>point system</em> to value people. How does the change from conditionals to a point system change how you feel about this program? Why?</p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Ethical CS</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              Ethical CS
+            
+            </li>
+            
+            <li><a href="mailto:evan.peck@bucknell.edu">evan.peck@bucknell.edu</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ethicalCS"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">ethicalCS</span></a>
+
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <!--<p></p>-->
+        Help us make this space better! 
+        Problems with this webpage?
+        <a id="file-bug-anchor" href="#">File a Bug</a> or
+        <a id="pull-request-anchor" href="#">Suggest a Fix</a>.
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+      runMainScript();
+  </script>
+
+</footer>
+
+
+  </body>
+
+</html>
