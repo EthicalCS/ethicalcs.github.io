@@ -17,7 +17,7 @@ By reducing the barrier to adoption, my hope is that ethical reflection can be i
 --------------------
 ## [Hiring Algorithms (CS 1): Computers as Decision-Makers](modules/hiring)
 
-![ethical hiring](img/hiring.jpg)
+![ethical hiring](modules/hiring/img/hiring.jpg)
 
 _What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
 - [Material](modules/hiring)
@@ -26,8 +26,8 @@ _What does it mean to design a fair algorithm? What is the human cost of efficie
 - *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-## [Input Validation (CS 1): Diversity and Identity](modules/input)
-![university](img/university.jpg)
+## [Input Validation (CS 1): Computers as Definers of Identity](modules/input)
+![university](modules/input/img/university.jpg)
 
 _What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
 - [Material](modules/input)
@@ -37,13 +37,19 @@ _What assumptions do we make about the people using our technology? What are the
 -------------------
 
 <!-- ## [Ethical Engine 1 (CS1/2): Representation](modules/ethicalengine1)
-![university](img/people.jpg)
+![university](modules/ethicalengine1/img/people.jpg)
 _How should we represent people in code? What are the implications of the representations we choose? How does our code reflect our values?_
 
 
 - [Material](modules/ethicalengine1) _SOON..._ -->
 
+--------------------
+<!-- ## [Ethical Engine 2 (CS1/2): Computers as Moral Arbiters](modules/ethicalengine2) -->
 
+
+
+
+---------------------
 
 
 ## _Coming Soon..._

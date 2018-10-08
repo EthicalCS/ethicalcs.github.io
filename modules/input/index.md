@@ -3,7 +3,7 @@ layout: page
 title: Ethical Input Validation
 exclude: true
 ---
-![university](../../img/university.jpg)
+![university](img/university.jpg)
 
 _This exercise was developed by [Justin Li (Occidental College)](https://justinnhli.com/). It was adapted by Evan Peck (Bucknell)_
 

@@ -4,7 +4,7 @@ title: Ethical Engine - Representation
 exclude: true
 ---
 
-![university](../../img/people.jpg)
+![university](img/people.jpg)
 
 - **Course:** CS 1/2
 - **Language:** Python

@@ -4,7 +4,7 @@ title: Ethical Hiring Algorithms
 exclude: true
 ---
 
-![ethical hiring](../../img/hiring.jpg)
+![ethical hiring](img/hiring.jpg)
 
 - **Course:** CS 1
 - **Language:** Python

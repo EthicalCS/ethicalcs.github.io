@@ -4,7 +4,7 @@ title: Harwall University's Forms
 exclude: true
 ---
 
-![university](../../img/university.jpg)
+![university](img/university.jpg)
 
 You are working for the prestigious Harwall university to meet the joint needs of _Admissions_, _Alumni Relations_, and _Communications_. People are constantly visiting campus - to see someone they know, to check out the school as a prospective, to give a talk, to interview, to come back to the school (alumni!), or for a variety of reasons.
 

@@ -4,7 +4,7 @@ title: Moogle's Hiring Algorithm
 exclude: true
 ---
 
-![ethical hiring](../../img/hiring.jpg)
+![ethical hiring](img/hiring.jpg)
 
 ## Scenario: Moogle's Hiring Filter
 Imagine you are working for _Moogle_, a well-known tech company that receives tens of thousands of job applications from graduating seniors every year.

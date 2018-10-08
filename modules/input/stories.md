@@ -3,7 +3,7 @@ layout: page
 title: Harwall University Forms - Stories
 exclude: true
 ---
-![university](../../img/university.jpg)
+![university](img/university.jpg)
 
 Now that you feel good about your form, consider the two vignettes below:
 

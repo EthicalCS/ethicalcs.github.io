@@ -3,7 +3,7 @@ layout: page
 title: Moogle's Hiring Algorithm - Stories
 exclude: true
 ---
-![ethical hiring](../../img/hiring.jpg)
+![ethical hiring](img/hiring.jpg)
 
 Now that you feel good about your algorithm, let's highlight some of those applicant and reveal the stories between them. For each of the following, reflect on whether you think that your algorithm _does the right thing._ If not, how could you change it?
 
