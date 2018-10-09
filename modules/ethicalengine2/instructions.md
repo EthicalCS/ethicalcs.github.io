@@ -44,15 +44,14 @@ You are given access to a few python files which you will use to various degrees
   - To run this file, simply type `python3 main.py` in the command line.
 
 
-#### Coding Predefined Priorities
+### Coding Predefined Priorities
 Below are written descriptions of rulesets for sample decision algorithms. Your job is to write and test three different decision methods in `engine.py` that precisely implement each ruleset:
 
-- **Ruleset 1:** Save the person in location 2, if and only if they are pregnant.
-- **Ruleset 2:** Save the person in location 1, if they are **not** trespassing or if they are a child.
-- **Ruleset 3:** The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the person in location 1.
+- `ruleset1`: Save the person in location 2, if and only if they are pregnant.
+- `ruleset2` Save the person in location 1, if they are **not** trespassing or if they are a child.
+- `ruleset3` The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the person in location 1.
 
 Fill in the appropriate methods in `engine.py`. When you want to test one of the decision methods, edit line `23` of `main.py` to choose the target method. Then execute the following command in your terminal to run the program:
-
 
 _Helpful Tip:_ Scenarios are generated randomly. You can also generate pseudo-random scenarios, where the _same_ scenarios are run each time the program runs. Specify a seed for the random generator as a runtime argument like so:
 
@@ -60,17 +59,18 @@ _Helpful Tip:_ Scenarios are generated randomly. You can also generate pseudo-ra
 $ python3 main.py 12
 ```
 
-#### From Gut Feelings to Code: Individuals
+### From Gut Feelings to Code: Individuals
 
-Now that you have experience using the [Ethical Engine API](code/docs.html), design your own decision algorithm that decides between one person in each location! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.
+Now that you have experience using the [Ethical Engine API](code/docs.html), design your own decision algorithm in `my_decision` that decides between one person in each location! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.
 
-Submit the following:
+Before writing your code, write a description of how you want the decision to be made.
 
-- A written description of how you want the decision to be made
-- The source code for your decision algorithm
-- Examples of possible discrepancies between your written description and the actual algorithm
+### Reflection Questions
+- Are there any discrepancies between your written description and the python algorithm?
+- Why do you think that your algorithm is the _right_ one? What are the tradeoffs?
+- Is it possible that your algorithm could amplify systemic biases if it was used at scale?
 
-#### From Gut Feelings to Code: Groups
+## From Gut Feelings to Code: Groups
 While you may be able to accomplish the previous sections with a set of complex conditional statements, the problem gets a lot more complicated when you need to choose between _groups_ of people.
 
 First, let's change the code in `scenario.py` so that it will create scenarios fo groups instead of individuals. Find the following code:
@@ -89,6 +89,11 @@ def __init__(self, loc1people=None, loc2people=None, youInLoc1=None,
               trespassing=None, sameNum=True):
 ```
 
-Change `sameNum` so that it is `sameNum=False`. This will change the random generation of scenarios so that each group _may not be the same size_.
+Change `sameNum` so that it is `sameNum=False`. This will change the random generation of scenarios so that each group _may not be the same size_. Think carefully about how you can handle these situations. How can you possibly compare groups of people?
 
-Think carefully about how you can handle these situations. One common method is to come up with a _point system_ to value people. How does the change from conditionals to a point system change how you feel about this program? Why?
+One possible method is to come up with a _point system_ to value people. That is, assign each person with a point value based on their characteristics, and then save the group that is valued with the most amount of points.
+
+### More Reflection
+- How does the switch from conditionals to a point system change how you feel about this program? Why?
+- Suppose your algorithm was repurposed for military operations - do you still feel as confident in your approach?
+- In this activity, we forced you to use a set of characteristics that were already defined for you. But suppose that you could create your own... what would or wouldn't you include?

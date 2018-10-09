@@ -5,7 +5,7 @@ def set_seed(seed):
     random.seed(seed);
 
 
-class Scenario():
+class Scenario:
     """ Packages all of the information needed to create an ethical scenario.
     Automatically construct a random scenario in which an autonomous robot must
     decide whether to save the people in location 1 vs. location 2
@@ -105,7 +105,7 @@ class Scenario():
         return readable
 
 
-class Person():
+class Person:
     """ Packages all the info needed for a person.
     Every scenario is composed of characters - many of which are people. Each
     of those people can contain a variety of characteristics. The Person class
@@ -165,21 +165,21 @@ class Person():
         # set type of character (human or animal?)
         if charType is None:
             self.charType = random.choice(self.CHAR_TYPES)
-            # you is also a char type
-            # If it's an animal, choose which type
-            if self.charType == "animal":
-                self.charType = random.choice(self.ANIMAL_TYPES)
-            # If it's a person, set the characteristics
-            if self.charType == "human":
-                self.age = random.choice(self.AGE_TYPES)
-                self.gender = random.choice(self.GENDER_TYPES)
 
-                # Set adult characteristics.
-                if self.age == "adult":
-                    self.bodyType = random.choice(self.BODYWEIGHT_CHANCE)
-                    if self.gender == "female":
-                        self.pregnant = random.choice(self.PREGNANT_CHANCE)
-                    self.profession = random.choice(self.PROF_TYPES)
+        # If it's an animal, choose which type
+        if self.charType == "animal":
+            self.charType = random.choice(self.ANIMAL_TYPES)
+        # If it's a person, set the characteristics
+        if self.charType == "human":
+            self.age = random.choice(self.AGE_TYPES)
+            self.gender = random.choice(self.GENDER_TYPES)
+
+            # Set adult characteristics.
+            if self.age == "adult":
+                self.bodyType = random.choice(self.BODYWEIGHT_CHANCE)
+                if self.gender == "female":
+                    self.pregnant = random.choice(self.PREGNANT_CHANCE)
+                self.profession = random.choice(self.PROF_TYPES)
 
     def __repr__(self):
         """ Method that helps python understand how to print a Person

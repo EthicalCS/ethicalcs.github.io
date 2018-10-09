@@ -29,4 +29,4 @@ Read through the following webpages:
 
 - How would you change your program so that it wouldn't fail? What are the advantages **and disadvantages** of doing this? You do not have to actually make the changes, only describe what you would do.
 
--
+- Look through the links above. Why might programmers care about these things? How might you approach these problems differently in the future? 

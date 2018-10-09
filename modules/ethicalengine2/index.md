@@ -22,13 +22,10 @@ _Robotoni_ has already built a robot that can navigate unknown terrain and succe
 Your job is to write a comparison algorithm for the _Robotoni Disaster-Relief Robot_ in which it compares two groups of people and decides which group to prioritize for relief.
 
 ## Assignment
-Students are presented _Part 1_ without **any** ethical framing or knowledge of _Part 2_.
+_Note: This assignment can either follow [Ethical Engine 1](../ethicalengine1) or act as a standalone assignment._
 - [Instructions](instructions.html)
-- [Part 2: Stories](stories.html)
-
-- [Docs](code/docs.html)
+- [Code (in Repository)](https://github.com/EthicalCS/ethicalcs.github.io/tree/master/modules/ethicalengine2/code)
 
 ## Supplemental Reading
-- [Hiring Algorithms are Not Neutral (Gideon Manna and Cathy O'Neil)](https://hbr.org/2016/12/hiring-algorithms-are-not-neutral)
-- [Can an Algorithm Hire Better Than a Human?](https://www.nytimes.com/2015/06/26/upshot/can-an-algorithm-hire-better-than-a-human.html)
-- [Now Algorithms Are Deciding Whom to Hire, Based on Voice](https://www.npr.org/sections/alltechconsidered/2015/03/23/394827451/now-algorithms-are-deciding-whom-to-hire-based-on-voice)
+- [Machine Bias (Pro Publica)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+- [What moral decisions should driverless cars make? (from TEDx Cambridge)](https://www.ted.com/talks/iyad_rahwan_what_moral_decisions_should_driverless_cars_make?language=en)

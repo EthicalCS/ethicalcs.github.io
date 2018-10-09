@@ -56,9 +56,8 @@
           
             
             
-              
-              <a class="page-link" href="/">Ethical Reflection Modules for CS 1</a>
-              
+          
+            
             
           
             
@@ -119,12 +118,12 @@
     <h1 class="post-title">Teluta&#39;s Person Model</h1>
   </header>
   <div class="post-content">
-    <p><img src="img/people.jpg" alt="university" /></p>
+    <p><img src="/modules/ethicalengine1/img/people.jpg" alt="university" /></p>
 
 <h2 id="scenario-telutas-autonomous-cars">Scenario: Teluta’s Autonomous Cars</h2>
 <p><em>Teluta</em> - an autonomous vehicle company - has made extraordinary strides in self-driving cars and is ready to go to market. But there is a corner case that needs to be addressed. In the rare instances in which <em>Teluta</em> vehicles can sense an impending crash, they need a mechanism to quickly assess and value human life. That is, the car must rapidly <em>choose who to save</em>.</p>
 
-<p>Your job is to create the code for <em>Teluta</em> that models a person.</p>
+<p>While prioritizing <em>who to save</em> will be decided by other employees of the company, your job is to decide which factors should be considered by their algorithms. To do this, you’ll use object-oriented programming to create a template for <em>Teluta</em> that models a person.</p>
 
 <h3 id="familiarize-yourself-with-the-moral-machine">Familiarize yourself with the Moral Machine</h3>
 <p>Visit MIT’s <a href="http://moralmachine.mit.edu/">Moral Machine</a>. From their website:</p>
@@ -135,13 +134,58 @@
 
 <p>Briefly, the <em>Moral Machine</em> is an online simulator that lets you experiment with the kinds of scenarios that <em>Teluta</em> outlined above.</p>
 
-<p><img src="img/moralmachine.png" alt="moralmachine" /></p>
+<p><img src="/modules/ethicalengine1/img/moralmachine.png" alt="moralmachine" /></p>
 
-<p>Click the <code class="highlighter-rouge">Start Judging</code> buttons and make yourself go through a handful of scenarios. Consider the different characteristics of people that are represented in the demonstration.</p>
+<p>Click the <code class="highlighter-rouge">Start Judging</code> buttons and make yourself go through a handful of scenarios. Consider the different characteristics of people and animals that are represented in the demonstration.</p>
+
+<h3 id="identifying-characteristics">Identifying Characteristics</h3>
+<p>On a sheet of paper (or in a file) write the following:</p>
+<ul>
+  <li>A list of all the characteristics about entities (people or animals) that you think should be represented in your program.</li>
+  <li>For each characteristic, identify the type of data that will be stored (<code class="highlighter-rouge">string</code>, <code class="highlighter-rouge">int</code>, <code class="highlighter-rouge">float</code>, <code class="highlighter-rouge">list</code>).</li>
+  <li>For each characteristic, identify what the possible values might be for this attribute
+    <ul>
+      <li>For example, if you kept track of <code class="highlighter-rouge">years_old</code>, you might say that it is a positive integer from <code class="highlighter-rouge">0</code> to <code class="highlighter-rouge">100</code>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Compare your list with a classmate. What similarities did you have? What differences? Record what drove those differences.</p>
 
 <h3 id="from-visuals-to-code">From Visuals to Code</h3>
 
-<p>Now that you’ve seen</p>
+<p>Now that you’ve run through the scenarios a few times, let’s take a look at some code. We’re going to practice object-oriented programming design and construct a <code class="highlighter-rouge">Person</code> class</p>
+
+<p>(<em>NOTE: our <code class="highlighter-rouge">Person</code> can actually be an animal too. This representation is best done through inheritance relationships, but at this point, we’ve constructed this assignment to fit very early exposure to OOP. Feel free to modify to fit your own circumstances!</em>)</p>
+
+<p>Your code will accomplish two different goals:</p>
+<ol>
+  <li>It will articulate all your characteristics as attributes of the <code class="highlighter-rouge">Person</code> classmate
+    <ul>
+      <li>Example below: <code class="highlighter-rouge">self.charType</code> represents the ‘character’ type each entity - whether it is a person or an animal. You should include more characteristics.</li>
+      <li>For each attribute, give it a default parameter of <code class="highlighter-rouge">None</code> in the constructor (<code class="highlighter-rouge">__init__</code>).</li>
+    </ul>
+  </li>
+  <li>It will allow for the creation of a randomly generated <code class="highlighter-rouge">Person</code>.
+    <ul>
+      <li>Once completed, typing <code class="highlighter-rouge">person = Person()</code> should generate an entity with random attributes.</li>
+      <li>Currently, our <code class="highlighter-rouge">CHAR_TYPES</code> variable contains not only the possible values for <code class="highlighter-rouge">self.charType</code>, but also lists them in the same probability with which they appear. For example, <code class="highlighter-rouge">CHAR_TYPES</code> contains <code class="highlighter-rouge">human</code> 6 times and <code class="highlighter-rouge">cat</code> and <code class="highlighter-rouge">dog</code> 1 time each. That means that <code class="highlighter-rouge">human</code> is 3x more likely to appear if someone uses this code to generate a random person. This also forces you to externalize the possible values you generated earlier and represent them directly in your code.</li>
+    </ul>
+  </li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+
+  <span class="n">CHAR_TYPES</span> <span class="o">=</span> <span class="p">[</span><span class="s">"human"</span><span class="p">,</span> <span class="s">"human"</span><span class="p">,</span> <span class="s">"human"</span><span class="p">,</span> <span class="s">"human"</span><span class="p">,</span> <span class="s">"human"</span><span class="p">,</span> <span class="s">"human"</span><span class="p">,</span> <span class="s">"dog"</span><span class="p">,</span> <span class="s">"cat"</span><span class="p">]</span>
+
+  <span class="c"># Constructor - you'll need to add more parameters than this</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">charType</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">charType</span> <span class="o">=</span> <span class="n">charType</span>
+    <span class="k">if</span> <span class="n">charType</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">charType</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">CHAR_TYPES</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Once you feel comfortable with your code, feel free to move onto part 2.</p>
 
   </div>
 

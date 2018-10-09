@@ -56,9 +56,8 @@
           
             
             
-              
-              <a class="page-link" href="/">Ethical Reflection Modules for CS 1</a>
-              
+          
+            
             
           
             
@@ -119,7 +118,7 @@
     <h1 class="post-title">Disaster Relief Robot</h1>
   </header>
   <div class="post-content">
-    <p><img src="img/rescue.jpg" alt="rescue" /></p>
+    <p><img src="/modules/ethicalengine2/img/rescue.jpg" alt="rescue" /></p>
 
 <h2 id="scenario-disaster-relief-robot">Scenario: Disaster Relief Robot</h2>
 
@@ -138,7 +137,7 @@
 
 <p>Briefly, the <em>Moral Machine</em> is an online simulator that lets you experiment with the kinds of scenarios that <em>Teluta</em> outlined above.</p>
 
-<p><img src="img/moralmachine.png" alt="moralmachine" /></p>
+<p><img src="/modules/ethicalengine2/img/moralmachine.png" alt="moralmachine" /></p>
 
 <p>Click the <code class="highlighter-rouge">Start Judging</code> buttons and make yourself go through a handful of scenarios. Try to reflect on exactly how you’re making your decisions.</p>
 
@@ -156,22 +155,22 @@
 
 <p>You are given access to a few python files which you will use to various degrees:</p>
 <ul>
-  <li><a href="code/scenario.py"><code class="highlighter-rouge">scenario.py</code></a> contains our code that automatically generates random scenarios that your robot must navigate. You do <em>not</em> need to alter this code. However, it is worth reading through and seeing if you understand it.</li>
-  <li><a href="code/engine.py"><code class="highlighter-rouge">engine.py</code></a> contains the code that you’ll write that <em>decides</em> which people to prioritize and save. This is where you’ll do most of your work.</li>
-  <li><a href="code/main.py"><code class="highlighter-rouge">main.py</code></a> is the code you’ll run that puts all the pieces together. You’ll need to comment or uncomment a line or two here to switch between your various decision implementations.
+  <li><a href="/modules/ethicalengine2/code/scenario.py"><code class="highlighter-rouge">scenario.py</code></a> contains our code that automatically generates random scenarios that your robot must navigate. You do <em>not</em> need to alter this code. However, it is worth reading through and seeing if you understand it.</li>
+  <li><a href="/modules/ethicalengine2/code/engine.py"><code class="highlighter-rouge">engine.py</code></a> contains the code that you’ll write that <em>decides</em> which people to prioritize and save. This is where you’ll do most of your work.</li>
+  <li><a href="/modules/ethicalengine2/code/main.py"><code class="highlighter-rouge">main.py</code></a> is the code you’ll run that puts all the pieces together. You’ll need to comment or uncomment a line or two here to switch between your various decision implementations.
     <ul>
       <li>To run this file, simply type <code class="highlighter-rouge">python3 main.py</code> in the command line.</li>
     </ul>
   </li>
 </ul>
 
-<h4 id="coding-predefined-priorities">Coding Predefined Priorities</h4>
+<h3 id="coding-predefined-priorities">Coding Predefined Priorities</h3>
 <p>Below are written descriptions of rulesets for sample decision algorithms. Your job is to write and test three different decision methods in <code class="highlighter-rouge">engine.py</code> that precisely implement each ruleset:</p>
 
 <ul>
-  <li><strong>Ruleset 1:</strong> Save the person in location 2, if and only if they are pregnant.</li>
-  <li><strong>Ruleset 2:</strong> Save the person in location 1, if they are <strong>not</strong> trespassing or if they are a child.</li>
-  <li><strong>Ruleset 3:</strong> The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the person in location 1.</li>
+  <li><code class="highlighter-rouge">ruleset1</code>: Save the person in location 2, if and only if they are pregnant.</li>
+  <li><code class="highlighter-rouge">ruleset2</code> Save the person in location 1, if they are <strong>not</strong> trespassing or if they are a child.</li>
+  <li><code class="highlighter-rouge">ruleset3</code> The first priority is to save the person who is a baby. The second priority is to save athletic people. The third priority is to save people who are either a doctor or a CEO. The fourth priority is to save females. The fifth priority is to save the person in location 1.</li>
 </ul>
 
 <p>Fill in the appropriate methods in <code class="highlighter-rouge">engine.py</code>. When you want to test one of the decision methods, edit line <code class="highlighter-rouge">23</code> of <code class="highlighter-rouge">main.py</code> to choose the target method. Then execute the following command in your terminal to run the program:</p>
@@ -181,19 +180,20 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python3 main.py 12
 </code></pre></div></div>
 
-<h4 id="from-gut-feelings-to-code-individuals">From Gut Feelings to Code: Individuals</h4>
+<h3 id="from-gut-feelings-to-code-individuals">From Gut Feelings to Code: Individuals</h3>
 
-<p>Now that you have experience using the <a href="code/docs.html">Ethical Engine API</a>, design your own decision algorithm that decides between one person in each location! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.</p>
+<p>Now that you have experience using the <a href="code/docs.html">Ethical Engine API</a>, design your own decision algorithm in <code class="highlighter-rouge">my_decision</code> that decides between one person in each location! You can refer to your notes from the Moral Machine scenarios or come up with an entirely new method of deciding.</p>
 
-<p>Submit the following:</p>
+<p>Before writing your code, write a description of how you want the decision to be made.</p>
 
+<h3 id="reflection-questions">Reflection Questions</h3>
 <ul>
-  <li>A written description of how you want the decision to be made</li>
-  <li>The source code for your decision algorithm</li>
-  <li>Examples of possible discrepancies between your written description and the actual algorithm</li>
+  <li>Are there any discrepancies between your written description and the python algorithm?</li>
+  <li>Why do you think that your algorithm is the <em>right</em> one? What are the tradeoffs?</li>
+  <li>Is it possible that your algorithm could amplify systemic biases if it was used at scale?</li>
 </ul>
 
-<h4 id="from-gut-feelings-to-code-groups">From Gut Feelings to Code: Groups</h4>
+<h2 id="from-gut-feelings-to-code-groups">From Gut Feelings to Code: Groups</h2>
 <p>While you may be able to accomplish the previous sections with a set of complex conditional statements, the problem gets a lot more complicated when you need to choose between <em>groups</em> of people.</p>
 
 <p>First, let’s change the code in <code class="highlighter-rouge">scenario.py</code> so that it will create scenarios fo groups instead of individuals. Find the following code:</p>
@@ -210,9 +210,16 @@
               <span class="n">trespassing</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">sameNum</span><span class="o">=</span><span class="bp">True</span><span class="p">):</span>
 </code></pre></div></div>
 
-<p>Change <code class="highlighter-rouge">sameNum</code> so that it is <code class="highlighter-rouge">sameNum=False</code>. This will change the random generation of scenarios so that each group <em>may not be the same size</em>.</p>
+<p>Change <code class="highlighter-rouge">sameNum</code> so that it is <code class="highlighter-rouge">sameNum=False</code>. This will change the random generation of scenarios so that each group <em>may not be the same size</em>. Think carefully about how you can handle these situations. How can you possibly compare groups of people?</p>
 
-<p>Think carefully about how you can handle these situations. One common method is to come up with a <em>point system</em> to value people. How does the change from conditionals to a point system change how you feel about this program? Why?</p>
+<p>One possible method is to come up with a <em>point system</em> to value people. That is, assign each person with a point value based on their characteristics, and then save the group that is valued with the most amount of points.</p>
+
+<h3 id="more-reflection">More Reflection</h3>
+<ul>
+  <li>How does the switch from conditionals to a point system change how you feel about this program? Why?</li>
+  <li>Suppose your algorithm was repurposed for military operations - do you still feel as confident in your approach?</li>
+  <li>In this activity, we forced you to use a set of characteristics that were already defined for you. But suppose that you could create your own… what would or wouldn’t you include?</li>
+</ul>
 
   </div>
 
