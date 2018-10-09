@@ -16,7 +16,7 @@ While standalone ethics courses are increasingly common in computer science, I f
 By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit. Please read the [FAQ](docs/faq.html) for more information.
 
 --------------------
-## [Hiring Algorithms: Computers as Decision-Makers](modules/hiring)
+## [Hiring Algorithms: Developers as Decision-Makers](modules/hiring)
 
 ![ethical hiring](modules/hiring/img/hiring.jpg)
 
@@ -28,7 +28,7 @@ _What does it mean to design a fair algorithm? What is the human cost of efficie
 - *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-## [Input Validation: Computers as Gatekeepers](modules/input)
+## [Input Validation: Developers as Gatekeepers](modules/input)
 ![university](modules/input/img/university.jpg)
 
 _What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
@@ -38,7 +38,7 @@ _What assumptions do we make about the people using our technology? What are the
 - *Author:* [Justin Li (Occidental College)](https://justinnhli.com/), Adapted by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-## [Ethical Engine 1: Computers as Definers of Identity](modules/ethicalengine1)
+## [Ethical Engine 1: Developers as Definers of Identity](modules/ethicalengine1)
 ![rescue](modules/ethicalengine1/img/people.jpg)
 
 _How can we adequately represent people in code? What characteristics of people should we **NOT** include in code? What are the implications of our representation decisions?_
@@ -49,7 +49,7 @@ _How can we adequately represent people in code? What characteristics of people 
 - *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-## [Ethical Engine 2: Computers as Moral Arbiters](modules/ethicalengine2)
+## [Ethical Engine 2: Developers as Moral Arbiters](modules/ethicalengine2)
 ![rescue](modules/ethicalengine2/img/rescue.jpg)
 
 _What is 'moral' behavior in the context of a computer? How do we write code that is forced to assign value to people?_

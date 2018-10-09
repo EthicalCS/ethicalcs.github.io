@@ -1,6 +1,5 @@
 
 # Ethical Reflection Modules
-
 This is the Jekyll-generated back-end to [https://ethicalcs.github.io/](https://ethicalcs.github.io/). Most useful information is there. In particular, check out the [FAQ](https://ethicalcs.github.io/docs/faq.html)
 
 ## License
