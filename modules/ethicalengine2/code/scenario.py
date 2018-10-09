@@ -97,10 +97,9 @@ class Scenario:
         readable += 'People at Location 2: \n'
         for entity in self.loc2people:
             readable += '-' + str(entity) + '\n'
-        readable += '\n'
-
         if self.trespassing:
-            readable += 'This group is trespassing\n'
+            readable += '- This group is trespassing\n'
+        readable += '\n'
 
         return readable
 

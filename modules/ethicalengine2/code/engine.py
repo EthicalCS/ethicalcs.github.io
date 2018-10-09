@@ -13,12 +13,12 @@ def ruleset1(scenario: Scenario) -> str:
 
     Note: in this activity, there will only be one person in each location
     @param scenario: details about the scenario
-    @return: "loc1People" or "loc2People" depending on who you want to save
+    @return: "loc1people" or "loc2people" depending on who you want to save
     """
-    passenger = scenario.loc1People[0]
-    pedestrian = scenario.loc2People[0]
+    passenger = scenario.loc1people[0]
+    pedestrian = scenario.loc2people[0]
     # TODO: Fill in the method
-    return "loc1People"
+    return "loc1people"
 
 
 def ruleset2(scenario: Scenario) -> str:
@@ -28,12 +28,12 @@ def ruleset2(scenario: Scenario) -> str:
 
     Note: in this activity, there will only be one person in each location
     @param scenario: details about the scenario
-    @return: "loc1People" or "loc2People" depending on who you want to save
+    @return: "loc1people" or "loc2people" depending on who you want to save
     """
-    passenger = scenario.loc1People[0]
-    pedestrian = scenario.loc2People[0]
+    passenger = scenario.loc1people[0]
+    pedestrian = scenario.loc2people[0]
     # TODO: Fill in the method
-    return "loc1People"
+    return "loc1people"
 
 
 def ruleset3(scenario: Scenario) -> str:
@@ -47,12 +47,12 @@ def ruleset3(scenario: Scenario) -> str:
 
     Note: in this activity, there will only be one person in each location
     @param scenario: details about the scenario
-    @return: "loc1People" or "loc2People" depending on who you want to save
+    @return: "loc1people" or "loc2people" depending on who you want to save
     """
-    passenger = scenario.loc1People[0]
-    pedestrian = scenario.loc2People[0]
+    passenger = scenario.loc1people[0]
+    pedestrian = scenario.loc2people[0]
     # TODO: Fill in the method
-    return "loc1People"
+    return "loc1people"
 
 
 def my_decision(scenario: Scenario) -> str:
@@ -62,9 +62,9 @@ def my_decision(scenario: Scenario) -> str:
 
     Note: in this activity, there will only be one person in each location
     @param scenario: details about the scenario
-    @return: "loc1People" or "loc2People" depending on who you want to save
+    @return: "loc1people" or "loc2people" depending on who you want to save
     """
-    passenger = scenario.loc1People[0]
-    pedestrian = scenario.loc2People[0]
+    passenger = scenario.loc1people[0]
+    pedestrian = scenario.loc2people[0]
     # TODO: Fill in the method
-    return "loc1People"
+    return "loc1people"
