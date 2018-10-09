@@ -26,6 +26,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Google Analytics
+google_analytics: UA-127206371-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
