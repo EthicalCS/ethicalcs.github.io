@@ -65,7 +65,8 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 <!-- ## [Data is Money (CS1): Computers as Privacy Gatekeepers](modules/ethicalengine2) -->
 
 ## _In Progress..._
-- Module on data privacy and ownership.
+- Module on data privacy and data ethics
+- Module on algorithm auditing (related to [ethical engine]((https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)))
 
 
 <!-- ## Other Resources
