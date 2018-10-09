@@ -68,8 +68,10 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 - Module on data privacy and ownership.
 
 
-
-
-## Other Resources
+<!-- ## Other Resources
 - [ACM Code of Ethics](https://www.acm.org/code-of-ethics)
-- [Ethics in Technology Practice](https://www.scu.edu/ethics-in-technology-practice/)
+- [Ethics in Technology Practice](https://www.scu.edu/ethics-in-technology-practice/) -->
+---------------------
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>
