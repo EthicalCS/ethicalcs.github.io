@@ -13,7 +13,7 @@ While standalone ethics courses are increasingly common in computer science, I f
 2. Develop ethical reflection habits _alongside_ coding (all modules involve programming!)
 3. Pair directly with _existing_ CS 1 curriculum (students practice for loops - but instead of practicing on trivial problems, their practice is situated in ethical design scenarios)
 
-By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit. Please read the [FAQ](faq.html) for more information.
+By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit. Please read the [FAQ](docs/faq.html) for more information.
 
 --------------------
 ## [Hiring Algorithms: Computers as Decision-Makers](modules/hiring)
