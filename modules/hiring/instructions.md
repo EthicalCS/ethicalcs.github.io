@@ -37,39 +37,21 @@ Your job is to:
 To get you started, we're provided some template code:
 
 - [`hiring.py`](code/hiring.py) a template where you will write your applicant-selection algorithm based on a small set of dummy data.
-- [`lottaApps.py`](code/lottaApps.py) a module that contains a list of ten-thousands applicants you can try once you have completed your code.
+- [`lottaApps.py`](code/lottaApps.py) a module that contains a list of ten-thousand randomly generated applicants you can try once you have completed your code.
+
+In `hiring.py`, you will be writing a series of predefined `analyze_applicant` methods which apply different criteria to applicants. Through this process, you will not only get a sense of the tradeoffs of different criteria, but also get practice writing various `for` loops. (_Note: this is meant to give you practice with for loops, so don't use python's built in functions such as `sum()` or `min()`_)
+
+Complete the following methods:
+- `analyze_applicant1` accepts applicants that have an overall GPA above 80. (Does _not_ need a for loop)
+- `analyze_applicant2` accepts applicants that have no grade below 65.
+- `analyze_applicant3` accepts applicants that have at least 4 grades above 85.
+- `analyze_applicant4` accepts applicants that have an average above 85.
+
+After writing, testing, and considering the tradeoffs of these four methods, write your own criteria in `your_analysis`.
+
 
 ### Questions you should answer:
 
 1. What criteria did you choose to select finalists? How did you choose that criteria?
 
 2. Roughly what percentage of applicants does your algorithm pass on as finalists? Is that enough? If _Moogle_ asked you to take a more aggressive approach with your algorithm, are there any tradeoffs?
-
-<!-- ```python
-example_list = [[93, 89, 63, 88, 60, 73, 80], [100, 63, 57, 96, 58, 71, 78], [81, 91, 99, 78, 57, 87, 86], [81, 73, 100, 57, 91, 60, 66], [86, 89, 64, 81, 69, 93, 92], [78, 63, 88, 95, 59, 98, 90], [55, 74, 68, 55, 69, 94, 80], [64, 77, 75, 92, 77, 72, 83], [95, 58, 92, 62, 77, 64, 59], [94, 78, 84, 83, 68, 63, 76]]
-
-
-def get_best_applicants(app_list):
-  """ Given applicant data, return the most qualified applications
-  input:
-  - app_list: a 2D list containing lists of application data
-  output:
-  - a 2D list of the best applications
-  """
-  finalists = list()
-
-  for app in app_list:
-    # This will return ALL the applicants as finalist.
-    # Your job is to only return a subset.
-    finalists += [app]
-
-  return finalists
-
-
-finalists = get_best_applicants(example_list)
-print('')
-print("-------------------------")
-print("The finalists are...")
-for finalist in finalists:
-  print(finalist)
-``` -->

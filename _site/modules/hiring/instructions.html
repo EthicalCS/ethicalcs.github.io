@@ -156,8 +156,20 @@
 
 <ul>
   <li><a href="/modules/hiring/code/hiring.py"><code class="highlighter-rouge">hiring.py</code></a> a template where you will write your applicant-selection algorithm based on a small set of dummy data.</li>
-  <li><a href="/modules/hiring/code/lottaApps.py"><code class="highlighter-rouge">lottaApps.py</code></a> a module that contains a list of ten-thousands applicants you can try once you have completed your code.</li>
+  <li><a href="/modules/hiring/code/lottaApps.py"><code class="highlighter-rouge">lottaApps.py</code></a> a module that contains a list of ten-thousand randomly generated applicants you can try once you have completed your code.</li>
 </ul>
+
+<p>In <code class="highlighter-rouge">hiring.py</code>, you will be writing a series of predefined <code class="highlighter-rouge">analyze_applicant</code> methods which apply different criteria to applicants. Through this process, you will not only get a sense of the tradeoffs of different criteria, but also get practice writing various <code class="highlighter-rouge">for</code> loops. (<em>Note: this is meant to give you practice with for loops, so don’t use python’s built in functions such as <code class="highlighter-rouge">sum()</code> or <code class="highlighter-rouge">min()</code></em>)</p>
+
+<p>Complete the following methods:</p>
+<ul>
+  <li><code class="highlighter-rouge">analyze_applicant1</code> accepts applicants that have an overall GPA above 80. (Does <em>not</em> need a for loop)</li>
+  <li><code class="highlighter-rouge">analyze_applicant2</code> accepts applicants that have no grade below 65.</li>
+  <li><code class="highlighter-rouge">analyze_applicant3</code> accepts applicants that have at least 4 grades above 85.</li>
+  <li><code class="highlighter-rouge">analyze_applicant4</code> accepts applicants that have an average above 85.</li>
+</ul>
+
+<p>After writing, testing, and considering the tradeoffs of these four methods, write your own criteria in <code class="highlighter-rouge">your_analysis</code>.</p>
 
 <h3 id="questions-you-should-answer">Questions you should answer:</h3>
 
@@ -169,35 +181,6 @@
     <p>Roughly what percentage of applicants does your algorithm pass on as finalists? Is that enough? If <em>Moogle</em> asked you to take a more aggressive approach with your algorithm, are there any tradeoffs?</p>
   </li>
 </ol>
-
-<!-- ```python
-example_list = [[93, 89, 63, 88, 60, 73, 80], [100, 63, 57, 96, 58, 71, 78], [81, 91, 99, 78, 57, 87, 86], [81, 73, 100, 57, 91, 60, 66], [86, 89, 64, 81, 69, 93, 92], [78, 63, 88, 95, 59, 98, 90], [55, 74, 68, 55, 69, 94, 80], [64, 77, 75, 92, 77, 72, 83], [95, 58, 92, 62, 77, 64, 59], [94, 78, 84, 83, 68, 63, 76]]
-
-
-def get_best_applicants(app_list):
-  """ Given applicant data, return the most qualified applications
-  input:
-  - app_list: a 2D list containing lists of application data
-  output:
-  - a 2D list of the best applications
-  """
-  finalists = list()
-
-  for app in app_list:
-    # This will return ALL the applicants as finalist.
-    # Your job is to only return a subset.
-    finalists += [app]
-
-  return finalists
-
-
-finalists = get_best_applicants(example_list)
-print('')
-print("-------------------------")
-print("The finalists are...")
-for finalist in finalists:
-  print(finalist)
-``` -->
 
   </div>
 
