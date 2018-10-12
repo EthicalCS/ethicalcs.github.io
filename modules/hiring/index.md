@@ -21,6 +21,8 @@ Students are presented _Part 1_ without **any** ethical framing or knowledge of 
 - [Part 1: Instructions](instructions.html)
 - [Part 2: Stories](stories.html)
 
+- [Zipped Instruction PDFs + Code (Updated 10/12/18)](hiring_algorithm.zip)
+
 ## Supplemental Reading
 - [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
 - [Hiring Algorithms are Not Neutral (Gideon Manna and Cathy O'Neil)](https://hbr.org/2016/12/hiring-algorithms-are-not-neutral)
