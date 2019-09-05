@@ -15,12 +15,8 @@ While standalone ethics courses are increasingly common in computer science, I f
 
 By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit. Please read the [FAQ](docs/faq.html) for more information.
 
-### Fall 2019: An ethically realigned CS 1
-In Fall 2019, Bucknell University running a redesigned CS 1 in which all core technical topics contain an ethical component. In addition to the activities below, we will be posting our lab handouts (Google Docs). All labs are completed in a 2-hour block.
-
-- [Lab 1 (Conditionals): Design a housing prioritization algorithm](https://docs.google.com/document/d/1HsRSC3H_u6KcQhv2y9cWyrYV3xpvvBUcAvoaH-FsG0I/edit?usp=sharing)
-- Lab 2 (Functions): Wrestle with input validation for diverse users. _Coming Soon_
-- Lab 3 (For loops): Design a hiring algorithm. _Coming Soon_
+## (News) Fall 2019: An ethically realigned CS 1
+In Fall 2019, Bucknell University is running a redesigned CS 1 in which all core technical topics contain an ethical component. To follow along, please visit [the page where I will publicly share some of our content](courses/bucknell-cs1.html).
 
 --------------------
 ## [Hiring Algorithms: Developers as Decision-Makers](modules/hiring)
