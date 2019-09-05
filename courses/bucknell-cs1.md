@@ -10,7 +10,7 @@ In Fall 2019, Bucknell University is running a redesigned version of CS 1 in whi
 - **For Loops:** Design a fair hiring algorithm. _Coming Soon: Adapted from [this activity](https://ethicalcs.github.io/modules/hiring/)_
 - **Complex, Nested Loops:** Averaging images of human faces (towards issues in facial-recognition) _Coming Soon_
 - **Dictionaries:** Creating an automatic language generator (towards issues in training sets) _Coming Soon_
-- **Object-Oriented Programming:** Designing how a disaster-relief robot prioritizes who to save _Coming Soon: Adaptive from [this activity](https://ethicalcs.github.io/modules/ethicalengine2/)_
+- **Object-Oriented Programming:** Designing how a disaster-relief robot prioritizes who to save _Coming Soon: Adapted from [this activity](https://ethicalcs.github.io/modules/ethicalengine2/)_
 
 
 _Project:_ Using data to predict income.
