@@ -14,3 +14,4 @@ There are many, many resources that have been developed over the past few years.
 - [Internet Rules Lab](https://www.internetruleslab.com/responsible-computing) - includes publications and activities based on ethical CS. 
 - [Ethics in Technology Practice](https://www.scu.edu/ethics-in-technology-practice/) 
 - [ACM Code of Ethics](https://www.acm.org/code-of-ethics)
+- [Middle School AI + Ethics Curriculum](https://www.media.mit.edu/projects/ai-ethics-for-middle-school/overview/)

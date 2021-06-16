@@ -24,14 +24,14 @@ _Note: If you are looking for the old homepage of this site, [click this link](a
 # Programming + Reflection Activities
 
 
-
 ## **[Conditionals]** Developers as Decision-Makers
 ![housing algorithms](img/housing.png)
 _What are the consequences when we turn people into numeric scores for algorithms? Who benefits and who are disadvantaged by our decisions?_
 
 - **Scenario:** Develop a scoring algorithm to determine which classmates are prioritized for housing on campus. Students use a human-centered design process to reflect on the ways in which different scoring algorithms can advantage or harm different groups of people. 
-- **Material:** [Nifty Assignments 2019 Page](http://nifty.stanford.edu/2020/peck-decision-makers/)
-- **Practice:** Conditionals (`if/elif/else`)
+- **Practice:** Conditionals (`if/elif/else`), Input (`input()`), Difference in strings vs. ints
+- **Material:** [Nifty Assignments 2020 Page](http://nifty.stanford.edu/2020/peck-decision-makers/)
+- **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 - **Context:** 2 hour lab setting. Small student groups. 
 - This assignment appeared as part of [_ACM SIGCSE'S Nifty Assignments_](https://dl.acm.org/doi/abs/10.1145/3328778.3372574) track. You can **cite that work with**: 
 
@@ -44,8 +44,8 @@ _What are the consequences when we turn people into numeric scores for algorithm
 ![input validation](img/university.jpg)
 _What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
 - **Scenario:** Collect and validate personal information of people visiting a university. Through designing form input and validation, students uncover assumptions they have made about the diversity of different aspects of identity, including name, address, and gender.  
-- **Material** - [Google Doc assn (2021)](https://drive.google.com/drive/folders/17Tb1lhn0AP5BUXT5gh80LhPDX7S8FsfX?usp=sharing) \| [old web-based assn (2019)](modules/input)
-- **Practice:** conditionals, functions, data types
+- **Practice:** data types, string and integer operations, python functions, conditionals (`if/elif/else`)
+- **Material:** [Google Doc assn (2021)](https://drive.google.com/drive/folders/17Tb1lhn0AP5BUXT5gh80LhPDX7S8FsfX?usp=sharing) \| [old web-based assn (2019)](modules/input)
 - **Author:** [Justin Li (Occidental College)](https://justinnhli.com/), Adaptation by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 - **Supplementary Reading:** 
   - [Falsehoods Programmers Believe about Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
@@ -60,7 +60,9 @@ _What assumptions do we make about the people using our technology? What are the
 ![ethical hiring](img/hiring.jpg)
 _What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
 - **Scenario:** Develop an algorithm that filters job applications based on student grades. Students reflect on specific cases in which a human would very likely make a different decision than the algorithm. What was the cost of automation? 
+- **Practice:** `for` loops, python `list` operations
 - **Material:** [updated Google Doc assn (2021)](https://drive.google.com/drive/folders/1_mLvJBKvRLN0KoBW8uIKAhHvBEGn6M2t?usp=sharing) \| [old web-based assn (2019)](modules/hiring)
+- **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 - **Writeup:** [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
 - **Supplementary Reading:**
   - [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
@@ -75,9 +77,13 @@ _What does it mean to design a fair algorithm? What is the human cost of efficie
 
 ## **[Nested Loops & 2D Lists]** Developers as Media Manipulators
 ![averaging faces](img/faces.png)
-- **Scenario:** This activity starts as a classic media manipulation lab (changing RGB values in pixels). In the last portion of the lab, students are given a series of face images, and write code to generate the _average_ face of those images. We use it as an introductory analogy to the shortcomings of training data on machine-learning, and an entry to talk about face-recognition.   
-- 
+_How does representation in a dataset impact an algorithm's outcome? Is it possible to create a representation that treats all people fairly? What are the possible implications of facial recognition software when it is used on historically marginalized groups?_
 
+- **Scenario:** This activity starts as a classic media manipulation lab (changing RGB values in pixels). In the last portion of the lab, students are given a series of face images, and write code to generate the _average_ face of those images. In the following lecture, students reflect on what happens when we analyze the demographics of the data underlying our face-averaging algorithm. We use it as an introductory analogy to the shortcomings of training data on machine-learning, and an entry to talk about face-recognition. 
+- **Practice:** 2D python `list`, nested `for` loops  
+- **Material:**
+- **Writeup:** [follow-up reflection](https://twitter.com/evanmpeck/status/1307043732676644864)
+- **Supplementary Material:**
 
 
 
@@ -89,9 +95,6 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 - *Scenario:* Program a disaster-relief robot to prioritize which distressed people to saves
 
 
-----------
-
---------------------
 <!-- ## [Hiring Algorithms: Developers as Decision-Makers](modules/hiring)
 
 ![ethical hiring](modules/hiring/img/hiring.jpg)
@@ -142,8 +145,7 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 
 
 <!-- ## Other Resources
-- [ACM Code of Ethics](https://www.acm.org/code-of-ethics)
-- [Ethics in Technology Practice](https://www.scu.edu/ethics-in-technology-practice/) -->
+-->
 ---------------------
 
 ## License
