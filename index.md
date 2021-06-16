@@ -8,91 +8,18 @@ exclude: true
 
 # Ethical Reflection Modules for CS 1
 
-In Fall 2019, I redesigned our CS 1 course to integrate practice-based (coding!) reflection directly with technical concepts. This is a space to share those modules. My goals for these activities are to: 
-1. Introduce **a deeper level of reflection in CS 1 courses**. I want students to see that their actions either directly or indirectly impact people, communities, and cultures, and that this impact is often not felt equally by different groups of people (along lines of gender, race, class, geography, etc.). 
-2. **Develop reflection habits _alongside_ coding habits** - all modules involve programming! 
-3. **Pair directly with _existing_ CS 1 curriculum** - students practice `for` loops - but instead of practicing on trivial problems, their practice is situated in ethical design scenarios
+While standalone ethics courses are increasingly common in computer science, I found that there are a lack of resources for integrating practice-based (coding!) reflection directly into CS 1 or 2 courses. This space acts as a repository of ethical reflection modules that I have created over the past couple of years. The goal of these modules is to:
+1. Introduce ethical reflection in CS 1 courses
+2. Develop ethical reflection habits _alongside_ coding (all modules involve programming!)
+3. Pair directly with _existing_ CS 1 curriculum (students practice for loops - but instead of practicing on trivial problems, their practice is situated in ethical design scenarios)
 
-What these activies are **not**: 
-- They are **not** a replacement for teaching students issues of cultural competency and identity. While computer scientists can (and should) point to those issues in class, we are _not_ the experts. Students should be taking courses that directly speak to the structures of power that they will be introducing systems to (including gender/race/ethnicity/class/geography/etc.) 
-- They do **not** teach students what the _right_ or _best_ design is. They  prompt students to reflect on the human consequences of their decisions. Sometimes, students answer _I'm not sure I can design this well enough to prevent harm_. That's a great answer too. Choosing to _not_ build something is okay.  
+By reducing the barrier to adoption, my hope is that ethical reflection can be implemented more broadly in CS curriculum as a critical habit. Please read the [FAQ](docs/faq.html) for more information.
 
-_Note: If you are looking for the old homepage of this site, [click this link](archive/old-index.html)_
-
-
-# Programming + Reflection Activities
-
-
-
-## **[Conditionals]** Developers as Decision-Makers
-![housing algorithms](img/housing.png)
-_What are the consequences when we turn people into numeric scores for algorithms? Who benefits and who are disadvantaged by our decisions?_
-
-- **Scenario:** Develop a scoring algorithm to determine which classmates are prioritized for housing on campus. Students use a human-centered design process to reflect on the ways in which different scoring algorithms can advantage or harm different groups of people. 
-- **Material:** [Nifty Assignments 2019 Page](http://nifty.stanford.edu/2020/peck-decision-makers/)
-- **Practice:** Conditionals (`if/elif/else`)
-- **Context:** 2 hour lab setting. Small student groups. 
-- This assignment appeared as part of [_ACM SIGCSE'S Nifty Assignments_](https://dl.acm.org/doi/abs/10.1145/3328778.3372574) track. You can **cite that work with**: 
-```
-Nick Parlante, Julie Zelenski, John DeNero, Christopher Allsman, Tiffany Perumpail, Rahul Arya, Kavi Gupta, Catherine Cang, Paul Bitutsky, Ryan Moughan, David J. Malan, Brian Yu, Evan M. Peck, Carl Albing, Kevin Wayne, and Keith Schwarz. 2020. Nifty Assignments. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE '20). Association for Computing Machinery, New York, NY, USA, 1270–1271. DOI:https://doi.org/10.1145/3328778.3372574
-```
+## (News) Fall 2019: An ethically realigned CS 1
+In Fall 2019, Bucknell University is running a redesigned CS 1 in which all core technical topics contain an ethical component. To follow along, please visit [the page where I will publicly share some of our content](courses/bucknell-cs1.html).
 
 --------------------
-
-## **[Functions & Data-types]** Developers as Gatekeepers
-![input validation](img/university.jpg)
-_What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
-- **Scenario:** Collect and validate personal information of people visiting a university. Through designing form input and validation, students uncover assumptions they have made about the diversity of different aspects of identity, including name, address, and gender.  
-- **Material** - [Google Doc assn (2021)](https://drive.google.com/drive/folders/17Tb1lhn0AP5BUXT5gh80LhPDX7S8FsfX?usp=sharing) | [old web-based assn (2019)](modules/input)
-- **Practice:** conditionals, functions, data types
-- **Author:** [Justin Li (Occidental College)](https://justinnhli.com/), Adaptation by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
-- **Supplementary Reading:** 
-  - [Falsehoods Programmers Believe about Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
-  - [Falsehoods Programmers Believe about Addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
-  - [Falsehoods Programmers Believe about Geography](https://wiesmann.codiferes.net/wordpress/?p=15187)
-  - [Facebook suspends Native Americans over 'real name' policy](https://www.theguardian.com/technology/2015/feb/16/facebook-real-name-policy-suspends-native-americans)
-  - [Airport body scan machines flag transgender passengers as threats](http://time.com/4044914/transgender-tsa-body-scan/)
-
---------------------
-
-## **[For Loops & Lists]** Developers as Future Makers
-![ethical hiring](img/hiring.jpg)
-_What does it mean to design a fair algorithm? What is the human cost of efficiency? What systemic advantages/disadvantages are your algorithms likely to amplify?_
-- **Scenario:** Develop an algorithm that filters job applications based on student grades. Students reflect on specific cases in which a human would very likely make a different decision than the algorithm. What was the cost of automation? 
-- **Material:** [updated Google Doc assn (2021)](https://drive.google.com/drive/folders/1_mLvJBKvRLN0KoBW8uIKAhHvBEGn6M2t?usp=sharing) | [old web-based assn (2019)](modules/hiring)
-- **Writeup:** [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
-- **Supplementary Reading:**
-  - [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
-  - [Hiring Algorithms are Not Neutral (Gideon Manna and Cathy O'Neil)](https://hbr.org/2016/12/hiring-algorithms-are-not-neutral)
-  - [Can an Algorithm Hire Better Than a Human?](https://www.nytimes.com/2015/06/26/upshot/can-an-algorithm-hire-better-than-a-human.html)
-  - [Now Algorithms Are Deciding Whom to Hire, Based on Voice](https://www.npr.org/sections/alltechconsidered/2015/03/23/394827451/now-algorithms-are-deciding-whom-to-hire-based-on-voice)
-- This assignment appeared as part of [_ACM SIGCSE'S Assignments that Blend Ethics and Technology_](https://dl.acm.org/doi/abs/10.1145/3328778.3366994) special session. You can **cite that work with**: 
-```
-Stacy A. Doore, Casey Fiesler, Michael S. Kirkpatrick, Evan Peck, and Mehran Sahami. 2020. Assignments that Blend Ethics and Technology. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE '20). Association for Computing Machinery, New York, NY, USA, 475–476. DOI:https://doi.org/10.1145/3328778.3366994
-```
-
---------------------
-
-## **[Nested Loops & 2D Lists]** Developers as Media Manipulators
-![averaging faces](img/faces.png)
-- **Scenario:** This activity starts as a classic media manipulation lab (changing RGB values in pixels). In the last portion of the lab, students are given a series of face images, and write code to generate the _average_ face of those images. We use it as an introductory analogy to the shortcomings of training data on machine-learning, and an entry to talk about face-recognition.   
-- 
-
-
-
-
-
-------------------------
-## **[Intro OOP]** Developers as Moral Arbiters
-![rescue](modules/ethicalengine1/img/people.jpg)
-_What is 'moral' behavior in the context of a computer? How do we write code that is forced to assign value to people? What are the implications of our representation decisions?_
-- *Scenario:* Program a disaster-relief robot to prioritize which distressed people to saves
-
-
-----------
-
---------------------
-<!-- ## [Hiring Algorithms: Developers as Decision-Makers](modules/hiring)
+## [Hiring Algorithms: Developers as Decision-Makers](modules/hiring)
 
 ![ethical hiring](modules/hiring/img/hiring.jpg)
 
@@ -101,16 +28,17 @@ _What does it mean to design a fair algorithm? What is the human cost of efficie
 - [Material](modules/hiring)
 - *Practice:* loops, conditionals, python lists
 - *Writeup:* [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
-- *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/) -->
+- *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-<!-- ## [Input Validation: Developers as Gatekeepers](modules/input)
+## [Input Validation: Developers as Gatekeepers](modules/input)
 ![university](modules/input/img/university.jpg)
 
+_What assumptions do we make about the people using our technology? What are the consequences of those assumptions? - who might we exclude? How do we capture diversity through design?_
 - *Scenario:* Collect and validate personal information of people visiting a university
 - [Material](modules/input)
 - *Practice:* conditionals, functions, data types
-- *Author:* [Justin Li (Occidental College)](https://justinnhli.com/), Adapted by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/) -->
+- *Author:* [Justin Li (Occidental College)](https://justinnhli.com/), Adapted by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
 ## [Ethical Engine 1: Developers as Definers of Identity](modules/ethicalengine1)
@@ -124,7 +52,7 @@ _How can we adequately represent people in code? What characteristics of people 
 - *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 
 --------------------
-## [Ethical Engine: Developers as Moral Arbiters](modules/ethicalengine2)
+## [Ethical Engine 2: Developers as Moral Arbiters](modules/ethicalengine2)
 ![rescue](modules/ethicalengine2/img/rescue.jpg)
 
 _What is 'moral' behavior in the context of a computer? How do we write code that is forced to assign value to people?_
@@ -137,8 +65,11 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 - *Author:* [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/), parts of activity by [Vinesh Kannan (Mimir HQ)](https://github.com/vingkan)
 
 ---------------------
+<!-- ## [Data is Money (CS1): Computers as Privacy Gatekeepers](modules/ethicalengine2) -->
 
-
+## _In Progress..._
+- Module on data privacy and data ethics
+- Module on algorithm auditing (related to [ethical engine]((https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)))
 
 
 <!-- ## Other Resources
