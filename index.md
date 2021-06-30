@@ -29,7 +29,7 @@ What these activies are **not**:
 - They are **not** a replacement for teaching students issues of [cultural competency](https://dl.acm.org/doi/abs/10.1145/3328778.3366792) and identity. While computer scientists can (and should) point to those issues in class, most of us are _not_ the experts. Students should be taking courses that directly speak to the structures of power that they will be introducing systems into (including gender / race / ethnicity / class / geography / etc.)
 - They do **not** teach students what the _correct_ design is. They prompt students to reflect on the human consequences of their decisions. Sometimes, students answer _I'm not sure I can design this well enough to prevent harm_. That's a great answer too. Choosing _not_ to build something is okay.  
 
-_Note: If you are looking for the old homepage of this site, [click this link](archive/old-index.html)_
+_Note: If you are looking for the old homepage of this site, [click this link](old-index.html)_
 
 
 ------------
