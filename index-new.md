@@ -47,7 +47,7 @@ _What are the consequences when we turn people into numeric scores for algorithm
 - **Context:** 2 hour lab setting. Small student groups.
 - **Supplementary Reading:**
   - [New algorithms to score candidates for lifesaving organ donations](http://algorithmtips.org/2021/04/29/new-algorithms-to-score-candidates-for-lifesaving-organ-donations/)
-  - [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
+  - [We created poverty. Algorithms won't make that go away (Virginia Eubanks)](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
   - [What Happens When an Algorithm Cuts Your Health Care](https://www.theverge.com/2018/3/21/17144260/healthcare-medicaid-algorithm-arkansas-cerebral-palsy)
 
 This assignment appeared as part of [_ACM SIGCSE'S Nifty Assignments_](https://dl.acm.org/doi/abs/10.1145/3328778.3372574) track. You can **cite that work with**:
