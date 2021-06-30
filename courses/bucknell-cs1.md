@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ethically Aligned CS 1 Course
+exclude: true
 ---
 
 In Fall 2019, Bucknell University is running a redesigned version of CS 1 in which all core technical topics explore societal and ethical questions in CS. While details of the full course will emerge after the semester, I'll be posting labs that our students collaboratively work together on. All labs are completed in a 2-hour block.
