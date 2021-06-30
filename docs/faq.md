@@ -1,6 +1,7 @@
 ---
 layout: page
 title: FAQ
+exclude: true
 ---
 
 ### Can I contribute?  
