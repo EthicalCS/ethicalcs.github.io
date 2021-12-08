@@ -45,6 +45,7 @@ _What are the consequences when we turn people into numeric scores for algorithm
 - **Material:** [Google Doc assn (2021)](https://docs.google.com/document/d/1t_ZvI0brEiHdb4CvvjA5X7-uUSU56p9h7alAf3RAcbg/edit?usp=sharing) \| [Nifty Assignments 2020 Page](http://nifty.stanford.edu/2020/peck-decision-makers/)
 - **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
 - **Context:** 2 hour lab setting. Small student groups.
+- **Instructor Guidance:** [Guidance provided by Jaye Nias and Marty Wolf](https://www.bemidjistate.edu/academics/departments/mathematics-computer-science/rcs/developers-as-decision-makers/)
 - **Supplementary Reading:**
   - [New algorithms to score candidates for lifesaving organ donations](http://algorithmtips.org/2021/04/29/new-algorithms-to-score-candidates-for-lifesaving-organ-donations/)
   - [We created poverty. Algorithms won't make that go away (Virginia Eubanks)](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
@@ -63,6 +64,7 @@ _What assumptions do we make about the people using our technology? What are the
 - **Practice:** data types, string and integer operations, python functions, conditionals (`if/elif/else`)
 - **Material:** [Google Doc assn (2021)](https://drive.google.com/drive/folders/17Tb1lhn0AP5BUXT5gh80LhPDX7S8FsfX?usp=sharing) \| [old web-based assn (2019)](modules/input)
 - **Author:** [Justin Li (Occidental College)](https://justinnhli.com/), Adaptation by [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
+- **Instructor Guidance:** [Guidance provided by Colleen Greer](https://www.bemidjistate.edu/academics/departments/mathematics-computer-science/rcs/developers-as-gatekeepers/)
 - **Supplementary Reading:**
   - [Falsehoods Programmers Believe about Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
   - [Falsehoods Programmers Believe about Addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)
@@ -80,6 +82,7 @@ _What does it mean to design a fair algorithm? What is the human cost of efficie
 - **Practice:** `for` loops, python `list` operations
 - **Material:** [updated Google Doc assn (2021)](https://drive.google.com/drive/folders/1_mLvJBKvRLN0KoBW8uIKAhHvBEGn6M2t?usp=sharing) \| [old web-based assn (2019)](modules/hiring)
 - **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
+- **Instructor Guidance:** [Guidance provided by Patrick Anderson and Jaye Nias](https://www.bemidjistate.edu/academics/departments/mathematics-computer-science/rcs/developers-as-future-makers/)
 - **Writeup:** [Ethical Design in CS 1: Building Hiring Algorithms in 1 Hour (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
 - **Supplementary Reading:**
   - [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G)
@@ -102,6 +105,7 @@ _How does representation in a dataset impact an algorithm's outcome? Is it possi
 - **Practice:** 2D python `list`, nested `for` loops  
 - **Material:** [Google Doc Assn (2021)](https://drive.google.com/drive/folders/19-2_YE2NiZQ7FvyOxKgKQ4PPHqkU1Imn?usp=sharing)
 - **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/)
+- **Instructor Guidance:** [Guidance provided by Emanuelle Burton and Darakhshan Mir](https://www.bemidjistate.edu/academics/departments/mathematics-computer-science/rcs/developers-as-image-manipulators/)
 - **Supplementary Reading:** I use some the following material in a subsequent lecture where we reflect on the lab. [Click this link to get a sense of that material](https://twitter.com/evanmpeck/status/1307043732676644864)
   - [Gender Shades - by Joy Buolamwini](https://www.youtube.com/watch?v=rWMLcNaWfe0)
   - [ACM US Technology Policy Committee Urges Suspension of Private and Governmental Use of Facial Recognition Technologies](https://www.acm.org/binaries/content/assets/public-policy/ustpc-facial-recognition-tech-statement.pdf)
@@ -119,6 +123,7 @@ _What is 'moral' behavior in the context of a computer? How do we write code tha
 - **Practice:** conditionals, use of APIs and objects, dictionaries (in optional last part)
 - **Material:** [updated Google Doc assn (2021)](https://docs.google.com/document/d/1G3ghx_oBHVb0XYTEj7BnOnGxyIHsmdQXUIwPNHToKoE/edit?usp=sharing) \| [old website version (2019)](modules/ethicalengine2)
 - **Author:** [Evan Peck (Bucknell University)](http://www.eg.bucknell.edu/~emp017/), parts of activity by [Vinesh Kannan (Mimir HQ)](https://github.com/vingkan)
+- **Instructor Guidance:** [Guidance provided by Judy Goldsmith and Patrick Anderson](https://www.bemidjistate.edu/academics/departments/mathematics-computer-science/rcs/developers-as-prioritizers/)
 - **Write ups:** _Note:_ these reflections are based on an earlier version of the assignment, but should still communicate the philosophy.
   - [The Ethical Engine: Integrating Ethical Design into Intro Computer Science (Evan Peck)](https://medium.com/bucknell-hci/ethical-design-in-cs-1-building-hiring-algorithms-in-1-hour-41d8c913859f)
   - [Write Up the Ethical Engine Lab (Justin Li)](https://howtostartacsdept.wordpress.com/2018/01/13/step-86-write-up-the-ethical-engine-lab/)
